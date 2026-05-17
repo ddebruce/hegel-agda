@@ -1,7 +1,16 @@
 # How to read this book
 
-The book is structured to serve two distinct readers at once. Each
-chapter section uses some subset of these **facets**, each at
+The book is structured to serve two distinct readers at once.
+
+Hegel's *Logic* is simultaneously a formal system and a piece of
+philosophy — the categorical and the conceptual co-develop, and
+neither makes much sense alone. The two tracks honor that split:
+the philosophy track follows the conceptual argument, the
+programmer track follows the formal construction, and the "Reads
+as" paraphrases bridge them. Most readers benefit from peeking at
+the other track now and then.
+
+Each chapter section uses some subset of these **facets**, each at
 whatever length the pedagogy demands:
 
 - **Hegelian thesis** — what Hegel claims, in his terms, with
