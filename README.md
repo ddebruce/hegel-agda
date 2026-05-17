@@ -24,7 +24,7 @@ for f in *.lagda.md; do agda "$f"; done
 ### Build and preview the book
 
 ```bash
-mdbook serve book --open
+./scripts/build-book.sh && mdbook serve book --open
 ```
 
 This builds the book and opens it in your browser at `http://localhost:3000`.
@@ -37,6 +37,11 @@ Edits to the markdown files trigger automatic rebuilds.
 - `book/book.toml` — mdBook configuration.
 - `hegel.agda-lib` — Agda library file pointing at `book/src/`.
 - `.github/workflows/deploy.yml` — CI that typechecks and deploys.
+
+> **Why the script?** mdBook does not natively render `.lagda.md`
+> files. The script copies them to `.md` (which mdBook reads) before
+> building. The `.lagda.md` files are canonical for Agda typechecking;
+> the `.md` copies are throwaway build artefacts and are gitignored.
 
 ## License
 

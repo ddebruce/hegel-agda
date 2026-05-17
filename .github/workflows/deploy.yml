@@ -48,8 +48,8 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - name: Build book
-        run: mdbook build book
+      - name: Build book (copy .lagda.md → .md, then mdbook)
+        run: ./scripts/build-book.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

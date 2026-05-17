@@ -14,6 +14,9 @@ MAlonzo/
 # mdBook build output (when we add the book pipeline)
 book/book/
 
+# Chapter .md files are auto-generated copies of .lagda.md sources
+book/src/ch*.md
+
 # macOS
 .DS_Store
 
