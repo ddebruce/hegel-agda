@@ -113,7 +113,7 @@ Mathematically, we model that structured space as `Ω`: the type
 whose inhabitants are precisely the propositions, each paired
 with its certificate of being-essential.
 
-> **Caveat.** `Ω` collects only the proposition-level "essences."
+> **Caveat:** `Ω` collects only the proposition-level "essences."
 > It is *not* the full type universe `Type`. The Lawvere/nLab
 > reading of Hegel's "essence as reflection within itself"
 > usually points at the full type universe (made reflective by

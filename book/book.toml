@@ -1,6 +1,9 @@
 [book]
 title = "Hegel's Logic in Cubical Agda"
 authors = ["David DeBruce"]
+# `multilingual` is intentionally omitted: mdBook v0.5.2 rejects it
+# at config-validation time. `language = "en"` already conveys the
+# single-language semantics we want, so the extra key is redundant.
 language = "en"
 src = "src"
 

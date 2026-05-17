@@ -205,7 +205,7 @@ a proposition to identify any two functions pointwise.
 This connects directly to [Chapter 5's
 `isProp`](./ch05-essence.md#1-propositions-essential-truths).
 
-> **Caveat.** The `Σ ⊣ W ⊣ Π` identification with Hegelian
+> **Caveat:** The `Σ ⊣ W ⊣ Π` identification with Hegelian
 > Possibility `⊣` Actuality `⊣` Necessity is the
 > **dependent-type-theoretic analog** of modal Possibility and
 > Necessity (`◊`, `□`). Classical modal logic defines those as
