@@ -1,0 +1,29 @@
+[book]
+title = "Hegel's Logic in Cubical Agda"
+authors = ["David DeBruce"]
+# `multilingual` is intentionally omitted: mdBook v0.5.2 rejects it
+# at config-validation time. `language = "en"` already conveys the
+# single-language semantics we want, so the extra key is redundant.
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/ddebruce/hegel-agda"
+edit-url-template = "https://github.com/ddebruce/hegel-agda/edit/main/book/{path}"
+additional-css = []
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3

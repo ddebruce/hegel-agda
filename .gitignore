@@ -8,8 +8,16 @@ _build/
 *.agdai
 MAlonzo/
 
+# Original chapter sources at repo root (being ported to book/src/*.lagda.md)
+/Chapter*.agda
+
 # mdBook build output (when we add the book pipeline)
 book/book/
+
+# Chapter .md files are auto-generated copies of .lagda.md sources
+book/src/ch*.md
+# But keep the canonical .lagda.md sources tracked
+!book/src/ch*.lagda.md
 
 # macOS
 .DS_Store

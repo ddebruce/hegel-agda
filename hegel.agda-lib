@@ -1,3 +1,3 @@
 name: hegel
-include: .
+include: book/src
 depend: standard-library cubical
