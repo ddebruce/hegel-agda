@@ -16,6 +16,8 @@ book/book/
 
 # Chapter .md files are auto-generated copies of .lagda.md sources
 book/src/ch*.md
+# But keep the canonical .lagda.md sources tracked
+!book/src/ch*.lagda.md
 
 # macOS
 .DS_Store
