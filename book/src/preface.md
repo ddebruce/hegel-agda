@@ -24,9 +24,9 @@ categorical logic and homotopy type theory.
   and much else, are not covered.
 - **It is not an original mathematical contribution.** The
   Lawvere/nLab translation is the source of all the ideas. The
-  implementation is a careful, pedagogical realisation of a
-  programme that has been articulated elsewhere.
-- **It is not a defence of the claim that Hegel can be
+  implementation is a careful, pedagogical realization of a
+  program that has been articulated elsewhere.
+- **It is not a defense of the claim that Hegel can be
   formalized.** The claim is contested — Hegel himself argues
   in §1798 that consistent formal logic cannot capture the
   productive contradictions central to his system. We try to be
@@ -55,7 +55,7 @@ explains the structure in more detail.
   (Cambridge University Press, 2010), which is also the edition
   cited on the [nLab *Science of Logic* page](https://ncatlab.org/nlab/show/Science+of+Logic).
 
-## Acknowledgements
+## Acknowledgments
 
 The translation framework this book implements is due principally
 to William Lawvere; its current articulation is collaborative work
@@ -68,3 +68,21 @@ on Cubical Agda.
 
 The honest framing of "what is and isn't captured" owes a great
 deal to several rounds of internal review during drafting.
+
+## Contact & contributing
+
+Questions, corrections, pushback, and collaboration are all welcome.
+
+- **Errata, typos, technical issues** — open an issue at
+  [github.com/ddebruce/hegel-agda/issues](https://github.com/ddebruce/hegel-agda/issues).
+- **Discussion of the philosophy or formalization** —
+  [github.com/ddebruce/hegel-agda/discussions](https://github.com/ddebruce/hegel-agda/discussions).
+  Specific is more useful than general: "Chapter 4 §3 paragraph 2"
+  beats "Chapter 4 was confusing."
+- **Serious correspondence** (collaboration, citation, review) —
+  [hello@ddebruce.com](mailto:hello@ddebruce.com).
+
+I am especially interested in: places where the Lawvere/nLab
+translation feels strained, candidates for a non-trivial Aufhebung
+instance, and Doctrine-of-the-Notion material I have not yet
+attempted.

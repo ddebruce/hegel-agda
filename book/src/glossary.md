@@ -169,7 +169,7 @@ universe-level things live one level up.
 
 ### `isContr A`
 
-A type expressing that `A` is contractible — has a centre point
+A type expressing that `A` is contractible — has a center point
 connected by paths to every inhabitant. Strictly stronger than
 "A has one element."
 
@@ -188,7 +188,7 @@ classifier of essential truths.
 
 Agda's keyword for "assume this exists without construction."
 Used sparingly in this book for abstract starting points; later
-chapters drop postulates in favour of real proofs.
+chapters drop postulates in favor of real proofs.
 
 ### Higher Inductive Type (HIT)
 

@@ -69,7 +69,7 @@ beyond its truth value.
   `true` and `false`.
 
 Propositions are the "essential" types: their internal structure
-has been discarded in favour of pure truth value.
+has been discarded in favor of pure truth value.
 
 ### In code
 
@@ -104,7 +104,7 @@ absurd pattern handles the (impossible) input."*
 For Hegel, essence is not something hidden behind appearance — it
 is **reflection within itself** (§816, §834). Essence appears
 *as* appearance to itself: it is the movement by which a concept
-returns into itself from its surface determinations and recognises
+returns into itself from its surface determinations and recognizes
 those determinations as *its own*. The universe of essences is
 therefore not a remote interior; it is the structured space in
 which each concept finds its truth.
@@ -165,7 +165,7 @@ Hegel's **Reflection** ([*Reflexion*](./glossary.md#reflexion-reflection)) is a 
 within the universe of essences — the act by which a concept
 shows itself in the register of what is essential. A reflection
 does not invent its content; it sorts the elements of its domain
-into their essential truths, recognising which inhabit which
+into their essential truths, recognizing which inhabit which
 essence.
 
 Mathematically a Reflection is a function `X → Ω` assigning each

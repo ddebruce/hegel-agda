@@ -68,7 +68,7 @@ way up.
 
 ### Math
 
-A type `A` is **contractible** when there is a **centre** point
+A type `A` is **contractible** when there is a **center** point
 `x : A` such that every other point `y` has a path to `x`. Path
 equality means: any two inhabitants are identified — and because
 paths between paths are themselves data in Cubical Type Theory,
@@ -83,7 +83,7 @@ one inhabitant."
 
 ### In code
 
-The definition uses `Σ` to package a centre together with the
+The definition uses `Σ` to package a center together with the
 contraction proof:
 
 ```agda
@@ -91,7 +91,7 @@ isContr : Set → Set
 isContr A = Σ A (λ x → (∀ y → x ≡ y))
 ```
 
-For `⊤`, the centre is `tt`. Because records with one constructor
+For `⊤`, the center is `tt`. Because records with one constructor
 enjoy automatic eta-equality, any `y : ⊤` is judgmentally equal
 to `tt`, so the constant path `λ i → tt` witnesses `tt ≡ y`:
 
@@ -102,7 +102,7 @@ to `tt`, so the constant path `λ i → tt` witnesses `tt ≡ y`:
 
 ### Reads as
 
-*"Pure Being is contractible: its centre is `tt`, and any other
+*"Pure Being is contractible: its center is `tt`, and any other
 inhabitant is identified with `tt` by the constant path."*
 
 ## 2. A real categorical adjunction (Product ⊣ Exponential)
@@ -161,7 +161,7 @@ the move by which a determination, by being negated and that
 negation in turn negated, returns to itself enriched.
 
 We cannot yet model the full dialectical movement, but we can
-formalize the *operator* that double negation describes. Modelling
+formalize the *operator* that double negation describes. Modeling
 "`X` and not-not-`X` are related but not identical" is exactly the
 intuitionistic situation, and exactly the right preparation for
 the modal-operator pattern Chapter 4 will generalize.
