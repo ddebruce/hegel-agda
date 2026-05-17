@@ -210,7 +210,7 @@ This connects directly to [Chapter 5's
 > **dependent-type-theoretic analog** of modal Possibility and
 > Necessity (`◊`, `□`). Classical modal logic defines those as
 > unary operators on propositions; the dependent-type version
-> generalises them to operators on dependent types. They
+> generalizes them to operators on dependent types. They
 > coincide on subsingleton (propositional) types and diverge on
 > richer types. The Lawvere reading takes this analogy as the
 > formal residue of Hegel's distinction.

@@ -194,7 +194,7 @@ In this chapter, Agda has checked these constructions:
 The other declarations (`C`, `c`, `A`, `B`, `f`, `E`, `b`) are
 postulates — assumed, not verified. We use postulates here only to
 have abstract starting points; subsequent chapters drop postulates
-in favour of real proofs.
+in favor of real proofs.
 
 ## What's next
 

@@ -10,8 +10,8 @@ program.
 
 ### Prerequisites
 
-- Agda 2.8.0
-- agda/cubical v0.9 registered in `~/.agda/libraries`
+- Agda 2.7.0.1 or 2.8.0 (CI uses 2.7.0.1)
+- agda/cubical registered in `~/.agda/libraries` (v0.8 if on 2.7.0.1; v0.9 if on 2.8.0)
 - mdBook (latest)
 
 ### Typecheck the Agda
@@ -41,7 +41,13 @@ Edits to the markdown files trigger automatic rebuilds.
 > **Why the script?** mdBook does not natively render `.lagda.md`
 > files. The script copies them to `.md` (which mdBook reads) before
 > building. The `.lagda.md` files are canonical for Agda typechecking;
-> the `.md` copies are throwaway build artefacts and are gitignored.
+> the `.md` copies are throwaway build artifacts and are gitignored.
+
+## Contact
+
+- Errata and bugs: [open an issue](https://github.com/ddebruce/hegel-agda/issues)
+- Philosophy / formalization discussion: [Discussions](https://github.com/ddebruce/hegel-agda/discussions)
+- Collaboration, citation, review: [hello@ddebruce.com](mailto:hello@ddebruce.com)
 
 ## License
 
