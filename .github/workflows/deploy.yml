@@ -26,12 +26,19 @@ jobs:
         with:
           agda-version: '2.8.0'
           agda-libraries: |
+            https://github.com/agda/agda-stdlib.git#v2.1.1
             https://github.com/agda/cubical.git#v0.9
 
       - name: Typecheck all chapters
         run: |
           cd book/src
-          for f in *.lagda.md; do
+          shopt -s nullglob
+          files=(*.lagda.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No .lagda.md chapters yet; skipping typecheck."
+            exit 0
+          fi
+          for f in "${files[@]}"; do
             echo "=== Typechecking $f ==="
             agda "$f"
           done
