@@ -44,7 +44,7 @@ closed under necessitation.
 
 ### Hegelian thesis
 
-Hegel's **Actuality** (*Wirklichkeit*) places a truth into a
+Hegel's **Actuality** ([*Wirklichkeit*](./glossary.md#wirklichkeit-actuality)) places a truth into a
 concrete context. A truth that is *actual* is not an abstract
 or floating proposition — it is one that holds *here*, at every
 point of the situation in which we find ourselves. Actuality is
@@ -72,7 +72,7 @@ weaken c = λ a → c
 
 ### Hegelian thesis
 
-Hegel's **Possibility** (*Möglichkeit*) is the modality of mere
+Hegel's **Possibility** ([*Möglichkeit*](./glossary.md#möglichkeit-possibility)) is the modality of mere
 existence-at-some-point: a concept holds *possibly* in a
 context `A` when there is **at least one** point of `A` at
 which it holds. It is the weakest of the three modalities — to
@@ -81,7 +81,7 @@ and not yet to be *placed* in the situation as actuality is.
 
 ### Math
 
-In dependent type theory this is the **dependent sum** `Σ A B`:
+In dependent type theory this is the **[dependent sum](./cubical-primitives.md#dependent-pairs-σ-__-fst-snd)** `Σ A B`:
 a pair of a witness `a : A` together with a proof of `B a`. To
 inhabit `Σ A B` is to exhibit *some* `a` that makes `B a` true.
 
@@ -132,7 +132,7 @@ into a function out of the `Σ`-type."*
 
 ### Hegelian thesis
 
-Hegel's **Necessity** (*Notwendigkeit*) is the strongest of the
+Hegel's **Necessity** ([*Notwendigkeit*](./glossary.md#notwendigkeit-necessity)) is the strongest of the
 three modalities: a concept holds *necessarily* in a context
 `A` when it holds at **every** point of `A`. Necessity does not
 merely witness; it covers — there is no point of the context

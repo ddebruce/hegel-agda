@@ -14,9 +14,9 @@ Those Concepts were postulated — we never asked "what is the
 *simplest possible* Concept?"
 
 The *Science of Logic* begins not with the syllogism but with the
-pair **Pure Being** (Sein) and **Pure Nothing** (Nichts). Hegel
+pair **Pure Being** ([Sein](./glossary.md#sein-pure-being)) and **Pure Nothing** ([Nichts](./glossary.md#nichts-pure-nothing)). Hegel
 argues these are equally indeterminate, and their tension gives
-rise to **Becoming** (Werden). Here we set up the type-theoretic
+rise to **Becoming** ([Werden](./glossary.md#werden-becoming)). Here we set up the type-theoretic
 correspondents:
 
 | Hegelian concept | Type-theoretic correspondent          |
@@ -108,7 +108,9 @@ truth*.
 > [Chapter 4](./ch04-unity-aufhebung.md) using a Higher Inductive
 > Type. Consistent formal logic cannot make `⊤` and `⊥` judgmentally
 > equal, so the identification will happen at the path level rather
-> than the equation level.
+> than the equation level. (See [Higher Inductive
+> Types](./cubical-primitives.md#higher-inductive-types-hits) for
+> the relevant Cubical primitive.)
 
 ### Intuition
 
@@ -129,7 +131,7 @@ content.
 
 ### In code
 
-The function from Nothing into any type uses the **absurd pattern**
+The function from Nothing into any type uses the **[absurd pattern](./cubical-primitives.md#absurd-patterns)**
 `()`. This tells Agda: "there are no inhabitants of `⊥` to
 consider, so this function is defined everywhere it needs to be
 defined (which is nowhere)."

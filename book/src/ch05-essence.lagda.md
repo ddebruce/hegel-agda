@@ -41,7 +41,7 @@ Two type-theoretic tools do the work:
 ### Hegelian thesis
 
 In the *Doctrine of Essence*, Hegel contrasts **essence**
-(*Wesen*) with **appearance** (*Schein*). At §818 he frames
+([*Wesen*](./glossary.md#wesen-essence)) with **appearance** ([*Schein*](./glossary.md#schein-illusory-being-appearance)). At §818 he frames
 essence as what is left when mere appearance is set aside —
 the truth of being that has *gone into itself*, no longer
 scattered across surface qualities but gathered into a
@@ -60,9 +60,9 @@ two of its inhabitants are connected by a path. This means `A`
 has at most one "way to be true" — it carries no information
 beyond its truth value.
 
-- `⊤` is a proposition: it has exactly one inhabitant, trivially
+- [`⊤`](./ch02-being.md#1-pure-being-das-sein) is a proposition: it has exactly one inhabitant, trivially
   identified with itself.
-- `⊥` is a proposition: it has no inhabitants at all, so the
+- [`⊥`](./ch02-being.md#2-pure-nothing-das-nichts) is a proposition: it has no inhabitants at all, so the
   identification is vacuous.
 - `Bool` (the type with two distinct inhabitants `true` and
   `false`) is **not** a proposition: there is no path between
@@ -161,7 +161,7 @@ is a proposition. Inhabiting `Ω` is being-essential."*
 
 ### Hegelian thesis
 
-Hegel's **Reflection** (*Reflexion*) is a concept's appearance
+Hegel's **Reflection** ([*Reflexion*](./glossary.md#reflexion-reflection)) is a concept's appearance
 within the universe of essences — the act by which a concept
 shows itself in the register of what is essential. A reflection
 does not invent its content; it sorts the elements of its domain

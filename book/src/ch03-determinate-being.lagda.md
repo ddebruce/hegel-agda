@@ -46,7 +46,7 @@ In Cubical Type Theory, `x ≡ y` is *not* a static fact but a **path**
 between `x` and `y` in a type viewed as a space. A path is a function
 from the unit interval `I = [i0, i1]` into the type, with endpoints
 `x` and `y`. The syntax `λ i → ...` defines a path by giving its
-value at each point `i` of the interval. `Σ` and its constructor
+value at each point `i` of the interval. [`Σ`](./cubical-primitives.md#dependent-pairs-σ-__-fst-snd) and its constructor
 `_,_` come transitively from `Agda.Builtin.Sigma` via the cubical
 library, so no local redefinition is needed.
 
@@ -59,7 +59,7 @@ that Pure Being has **no internal distinction**: no content, no
 qualities, no relation, no movement of its own. It is pure
 self-identity, undifferentiated from itself in every respect.
 
-Chapter 2 captured the *one-inhabitant* aspect of this with `⊤`,
+Chapter 2 captured the *one-inhabitant* aspect of this with [`⊤`](./ch02-being.md#1-pure-being-das-sein),
 but mere singleness is too weak. A type with one inhabitant only
 says `x = y` for any two points. Hegel's claim is stronger: there
 is no distinguishable structure *at any level*. The right formal

@@ -45,12 +45,12 @@ Hegel's most famous early claim in the *Science of Logic*
 their truth** — not approximately, not as a regulative idea, but
 *equal*. At §178 he writes that their truth is "this movement of
 the immediate vanishing of the one in the other": **Becoming**
-(*Werden*). The two are not merely related opposites side by side
+([*Werden*](./glossary.md#werden-becoming)). The two are not merely related opposites side by side
 — their identity *is* the dynamic, the passing-over of each into
 the other, which Hegel will then re-determine as the structure
 of all subsequent thought.
 
-> **Caveat:** Consistent formal logic cannot make `⊤` and `⊥`
+> **Caveat:** Consistent formal logic cannot make [`⊤`](./ch02-being.md#1-pure-being-das-sein) and [`⊥`](./ch02-being.md#2-pure-nothing-das-nichts)
 > judgmentally equal — doing so would yield a term of every type
 > and collapse the system. Hegel himself flags this barrier at
 > §1798: *"the thinking of contradiction is the essential moment of
@@ -61,7 +61,7 @@ of all subsequent thought.
 
 ### Math
 
-**Higher Inductive Types (HITs)** extend ordinary inductive types
+**[Higher Inductive Types (HITs)](./cubical-primitives.md#higher-inductive-types-hits)** extend ordinary inductive types
 with *path constructors*. An ordinary inductive type introduces a
 type by listing its point constructors (e.g. `zero` and `suc` for
 `ℕ`). A path constructor introduces, in addition, an explicit
@@ -71,7 +71,7 @@ and cannot be axiomatised constructor-by-constructor. In **Cubical
 Type Theory** it is a basic feature, because paths are themselves
 first-class data (functions out of the interval `I`).
 
-A HIT is therefore the natural home for Hegel's "Sein ≡ Nichts":
+A HIT is therefore the natural home for Hegel's "[Sein](./glossary.md#sein-pure-being) ≡ [Nichts](./glossary.md#nichts-pure-nothing)":
 we get to *put* a path between the two points without postulating
 a contradiction.
 
@@ -101,7 +101,7 @@ is therefore an operator: it takes a concept and exhibits a
 specific quality of it. The dual is a **Co-Moment**, which
 *extracts* rather than projects.
 
-Chapter 3's `¬¬` was our first concrete example of this pattern:
+[Chapter 3's `¬¬`](./ch03-determinate-being.md#3-negation-and-the-double-negation-modality) was our first concrete example of this pattern:
 the operator `X ↦ ¬¬X` with its unit `X → ¬¬X` is exactly the
 shape of a Moment — a functor with an insertion. Here we abstract
 that pattern, and additionally demand the coherence laws that
@@ -246,7 +246,7 @@ determinations of being and essence are built.
 ### In code
 
 The constant comonad at `⊥`: every field reduces to a vacuous
-absurd pattern, because `◻ X = ⊥` has no inhabitants for Agda to
+[absurd pattern](./cubical-primitives.md#absurd-patterns), because `◻ X = ⊥` has no inhabitants for Agda to
 operate on:
 
 ```agda
@@ -262,7 +262,7 @@ Nothing-CoMoment = record
   }
 ```
 
-The constant monad at `⊤`: all laws are discharged by `refl`,
+The constant monad at `⊤`: all laws are discharged by [`refl`](./cubical-primitives.md#paths-and-__),
 because `⊤` enjoys eta-equality and so any two of its inhabitants
 are judgmentally equal to `tt`:
 
@@ -299,7 +299,7 @@ Becoming-Adjunction = record
 
 ### Hegelian thesis
 
-Hegel's **Aufhebung** combines three senses at once: *to cancel*,
+Hegel's **[Aufhebung](./glossary.md#aufhebung-sublation)** combines three senses at once: *to cancel*,
 *to preserve*, and *to elevate*. A sublation cancels the
 contradiction of a lower Unity, preserves its moments, and raises
 them to a resolved higher Unity. The lower opposition is not

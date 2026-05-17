@@ -29,7 +29,7 @@ Hegel adds to it.
 
 ### Hegelian thesis
 
-Hegel's most fundamental unit is the **Concept** (Begriff). In the
+Hegel's most fundamental unit is the **Concept** ([Begriff](./glossary.md#begriff-concept)). In the
 *Doctrine of the Notion* (§1280 ff.) he treats the concept not as a
 static container but as a self-developing unity of universality,
 particularity, and individuality. For this opening chapter we will
@@ -64,7 +64,7 @@ all types."*
 ### Hegelian thesis
 
 A Concept by itself is empty until something is asserted of it.
-Hegel's **Judgment** (Urteil — literally *Ur-Teil*, "primal
+Hegel's **Judgment** ([Urteil](./glossary.md#urteil-judgment) — literally *Ur-Teil*, "primal
 division") is the assertion that an individual belongs to a Concept.
 In the *Doctrine of the Notion* Hegel develops four kinds of
 Judgment (existence, reflection, necessity, the Notion); here we
@@ -132,7 +132,7 @@ of `B` a corresponding individual of `A` — that is, 'all `B` are
 
 Hegel argues that isolated Judgments are incomplete: they cry out
 for connection through a mediating middle term. This is the
-**Syllogism** (Schluss — "closing" or "conclusion"). The classical
+**Syllogism** ([Schluss](./glossary.md#schluss-syllogism) — "closing" or "conclusion"). The classical
 example:
 
 > "All Humans are Mortal. Socrates is Human. Therefore Socrates is
