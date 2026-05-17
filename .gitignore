@@ -8,6 +8,9 @@ _build/
 *.agdai
 MAlonzo/
 
+# Original chapter sources at repo root (being ported to book/src/*.lagda.md)
+/Chapter*.agda
+
 # mdBook build output (when we add the book pipeline)
 book/book/
 
