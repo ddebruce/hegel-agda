@@ -1,5 +1,12 @@
 # Cubical primitives reference
 
+> **Reference, not tutorial.** Skip this page on first read. Each
+> chapter introduces the cubical-Agda constructs it needs in
+> context and links back here for a one-page reminder. Use this
+> appendix when you want the formal definition of `_≡_`, `PathP`,
+> `Σ`, HITs, the unit interval, eta-equality, or absurd patterns
+> — not as a prerequisite tutorial.
+
 This page collects the Cubical Agda machinery used throughout the
 book in one place. Every chapter links here on first use.
 
@@ -118,7 +125,9 @@ We use this in Chapter 4 to model Hegel's claim that Sein ≡ Nichts.
 ## The libraries
 
 The book imports from the [agda/cubical](https://github.com/agda/cubical)
-library, version 0.9. The key modules are:
+library. CI uses version 0.8 (paired with Agda 2.7.0.1); version
+0.9 (paired with Agda 2.8.0) also works locally. The key modules
+are:
 
 - `Cubical.Core.Primitives` — `I`, `_≡_`, `PathP`, `Σ`, `_,_`
 - `Cubical.Foundations.Prelude` — `refl`, `sym`, `_∙_`, `cong`,

@@ -6,7 +6,6 @@
 
 - [Preface](./preface.md)
 - [How to read this book](./how-to-read.md)
-- [Cubical primitives reference](./cubical-primitives.md)
 
 # Chapters
 
@@ -17,7 +16,10 @@
 - [Chapter 5 — The Logic of Essence](./ch05-essence.md)
 - [Chapter 6 — Actuality](./ch06-actuality.md)
 
-# Back Matter
+---
 
+# Appendix
+
+- [Cubical primitives reference](./cubical-primitives.md)
 - [Glossary](./glossary.md)
 - [Bibliography](./bibliography.md)

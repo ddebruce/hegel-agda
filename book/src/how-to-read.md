@@ -38,7 +38,8 @@ end of every chapter.
 If you encounter an Agda symbol you want to understand briefly, the
 [Glossary](./glossary.md) explains every construct used in the
 book in plain English. The [Cubical primitives](./cubical-primitives.md)
-sidebar collects the more technical pieces.
+appendix collects the more technical pieces and is meant for
+look-up, not first-read.
 
 ## If you come from type theory or programming
 
