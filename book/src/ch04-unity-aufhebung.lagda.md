@@ -36,6 +36,34 @@ moves:
 5. **Aufhebung as record.** The structural form of a higher Unity
    subsuming a lower one, declared but not yet inhabited.
 
+## What's at stake
+
+Chapters 1–3 set up the apparatus. This chapter is where the
+apparatus is asked to do real Hegelian work.
+
+**Aufhebung** — *sublation* in English — is Hegel's signature move
+and the one most readers come to see. Three senses fused in a
+single word: *to cancel*, *to preserve*, *to elevate*. When a
+concept is sublated, its contradictions are resolved, its content
+survives, and it is lifted to a richer determination. This is what
+makes Hegel's dialectic *forward-moving* rather than cyclic.
+Without Aufhebung, contradictions in thought just oscillate. With
+it, each contradiction *produces* the next stage of the system.
+
+The chapter is also where we deploy Cubical Agda's most
+distinctive feature — **Higher Inductive Types** — for a
+specifically philosophical purpose. The HIT lets us assert an
+identification (Sein ≡ Nichts) that classical logic would reject,
+without collapsing into inconsistency. Hegel needs exactly this
+kind of identification, and classical logic refuses to grant it;
+cubical type theory gives us the *form* while honestly flagging
+what remains beyond reach.
+
+If the chapter succeeds, you walk away with: a path between Pure
+Being and Pure Nothing, a real verified instance of "unity of
+opposites" as a categorical adjunction, and a named — though not
+yet inhabited — structural form for Aufhebung itself.
+
 ## 1. Sein ≡ Nichts (Becoming as a Higher Inductive Type)
 
 ### Hegelian thesis
@@ -58,6 +86,17 @@ of all subsequent thought.
 > fully. The Higher Inductive Type below gets us the closest
 > available compromise: a **path-level** identification, structural
 > rather than judgmental.
+>
+> *Why this matters:* without an HIT we would be stuck with two
+> bad choices — accept inconsistency (which destroys the system)
+> or deny the identification (which destroys Hegel's claim). The
+> HIT carves a third way: the identification is *real* and
+> *constructive*, but it lives at the path level rather than the
+> equation level, so it doesn't collapse `⊤` and `⊥` for every
+> purpose. That is closer to the texture of "the same in their
+> truth, not in their separate appearances" than any classical
+> system can reach. We are postulating exactly the kind of
+> identification Hegel needs — and the system stays consistent.
 
 ### Math
 
@@ -325,10 +364,26 @@ record Aufhebung (C₁ : CoMoment) (M₁ : Moment) : Set₁ where
 > construct an instance. The record captures the "contains" aspect
 > (a higher Unity subsumes a lower one) but understates Hegel's
 > structure — a full account would require the inclusion to
-> commute with the moment operations and would track HOW the
+> commute with the moment operations and would track *how* the
 > contradiction is resolved at the higher level. A non-trivial
 > `Aufhebung` instance is on the deferred list, awaiting the
 > richer modalities of later chapters.
+>
+> *Why this matters:* the record names what an Aufhebung *would
+> have to provide* — and naming the shape is itself a real
+> contribution. It says, formally: a sublation is a higher
+> adjunction containing the lower one, plus a structural inclusion
+> of the lower moment. The honest gap is that we have not
+> exhibited a concrete inhabitant. The record only becomes
+> non-trivial when there exists an instance that is *not* equal
+> to the lower Unity itself, and constructing such an instance is
+> the genuinely philosophical content. (The initial opposition
+> below is too empty to admit one; richer Hegelian moves —
+> Quality from Quantity, Essence from Being — would.) Candidates
+> for v2 are listed at the end of the book. Until then the
+> structural shape is named, the slot is empty, and the reader
+> can see exactly where the philosophical work would have to
+> happen.
 
 ### Reads as
 
@@ -353,6 +408,15 @@ moment is contained in the higher moment."*
   and the two inverse proofs `fwd-bwd` and `bwd-fwd`.
 - The `Aufhebung` record is **declared**, not inhabited —
   intentionally, as flagged in the caveat above.
+
+*What we now know that we didn't before:* Higher Inductive Types
+let us *name* Hegel's signature identification (Sein ≡ Nichts)
+without collapsing into inconsistency; monads and comonads with
+laws are the categorical shape of Hegelian Moments; Unity of
+Opposites is an adjunction with verified inverses. The structural
+infrastructure of dialectic is in place, even where the genuine
+philosophical content — a non-trivial Aufhebung — remains the
+next move.
 
 ## What's next
 

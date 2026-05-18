@@ -40,6 +40,33 @@ adjunctions with their inverse maps, and link back to
 **preserves propositionhood** — the universe of essences is
 closed under necessitation.
 
+## What's at stake
+
+Actuality is a hinge in Hegel. It's the moment where essence
+becomes *effective* — where the inner truth developed in the
+Doctrine of Essence shows up as outer reality. In the structure
+of the *Logic*, Actuality is also where the Doctrine of Essence
+ends and the Doctrine of the Notion begins. (We do not enter the
+Notion in this book.) In the larger system, Actuality is the
+bridge from logic to nature and spirit — the moment where the
+self-developing conceptual structure connects with what *is*.
+
+Two things are at stake formally. First, that Hegel's triad
+**Possibility / Actuality / Necessity** has a verified
+type-theoretic counterpart at all. Following the Lawvere/nLab
+reading, that counterpart is the adjoint triple `Σ ⊣ W ⊣ Π`.
+Finding a triadic structure that mirrors Hegel — and verifying
+both adjunctions — is non-trivial evidence for the Lawvere
+program: triadic structures are everywhere in Hegel, and a clean
+formal one matters.
+
+Second, that the Doctrine of Actuality is *compatible* with the
+Doctrine of Essence. If Necessity destroyed essences, the system
+would be incoherent. The chapter closes by proving the bridge
+theorem — `Π-preserves-prop` — so the universe of essences is
+closed under necessitation. The book ends with the two doctrines
+formally cohering.
+
 ## 1. Actuality as weakening (Truth in a Context)
 
 ### Hegelian thesis
@@ -214,6 +241,22 @@ This connects directly to [Chapter 5's
 > coincide on subsingleton (propositional) types and diverge on
 > richer types. The Lawvere reading takes this analogy as the
 > formal residue of Hegel's distinction.
+>
+> *Why this matters:* the divergence is *interesting*, not a
+> defect. On propositions, our `Σ` and `Π` reduce to the familiar
+> existential and universal quantifiers and behave just like
+> modal `◊` and `□`. On richer types they do more — `Σ` keeps the
+> *witness* alongside the proof, `Π` produces a *family* of
+> proofs indexed by context — and that extra structure is
+> precisely what the Lawvere reading takes to be the formal
+> residue of Hegel's distinction. Classical modal logic
+> distinguishes Possibility and Necessity only at the level of
+> truth values; the dependent-type version distinguishes them at
+> the level of *content*. What it means for Possibility to differ
+> from Necessity *as operators on actual dependent content*
+> (rather than only on propositions) is an open research
+> question, and our verified triple is a starting point for
+> asking it.
 
 ### In code
 
@@ -242,6 +285,14 @@ In this chapter, Agda has checked these constructions:
   `W ⊣ Π` adjunction, fully witnessed.
 - `Π-preserves-prop` — the cross-chapter bridge: Necessity
   preserves Essence.
+
+*What we now know that we didn't before:* Hegel's triad
+Possibility–Actuality–Necessity corresponds to the adjoint triple
+`Σ ⊣ W ⊣ Π`, both adjunctions verified with explicit inverses.
+Necessity preserves Essence (`Π-preserves-prop`), so the Doctrine
+of Essence and the Doctrine of Actuality formally cohere. Across
+the six chapters: where the Lawvere translation survives Hegel,
+the proof is on the page; where it falls short, the gap is named.
 
 ## What we built / what we did not build
 

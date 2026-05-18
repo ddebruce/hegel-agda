@@ -23,19 +23,41 @@ standard correspondent in type theory.
 These mappings are Aristotelian — they capture the baseline Hegel
 *begins from*. His distinctive moves come later. This chapter shows
 the baseline working in Agda; subsequent chapters introduce what
-Hegel adds to it.
+Hegel adds to it. The point isn't to defend Aristotelian logic
+against Hegel; it's to make the gap Hegel will try to close as
+crisp as possible — the gap between concepts as static containers
+and concepts as self-developing wholes.
 
 ## 1. Concepts (Begriffe)
 
 ### Hegelian thesis
 
-Hegel's most fundamental unit is the **Concept** ([Begriff](./glossary.md#begriff-concept)). In the
-*Doctrine of the Notion* (§1280 ff.) he treats the concept not as a
-static container but as a self-developing unity of universality,
-particularity, and individuality. For this opening chapter we will
-work with the static "container" reading — it is what type theory
-can capture cleanly — and we will signal explicitly when we are
-relying on this reduction.
+Hegel's most fundamental unit is the **Concept** ([Begriff](./glossary.md#begriff-concept)).
+But "concept" here means something more dynamic than the everyday
+sense. In the *Doctrine of the Notion* (§1280 ff.) Hegel treats a
+concept as a **self-developing unity of three moments**:
+
+- The **universal** — what the concept means in general.
+  *Humanity*, *justice*, *redness*.
+- The **particular** — the determinate kinds or aspects through
+  which the universal expresses itself. *This kind of human*,
+  *this shade of red*.
+- The **individual** — the singular term that is *this particular
+  this-universal* at once. *Socrates*, who is both this particular
+  human and an instance of humanity in general.
+
+"Individual" here is philosophical jargon for a singular instance —
+Socrates, this cup, this proof — not "a person." The three moments
+are not three separate things; they are three aspects of one
+self-moving concept, and Hegel's claim that they form a *real
+unity* is one of the load-bearing claims of the whole *Logic*.
+
+For this opening chapter we will work with the much weaker static
+"container" reading — concept-as-type, with individuals as terms
+of that type — because it is what type theory can capture cleanly.
+Later chapters introduce the moves that begin to recover Hegel's
+richer picture. The reduction is honest about its limits, and we
+will signal them as they bite.
 
 ### In code
 
@@ -196,11 +218,28 @@ postulates — assumed, not verified. We use postulates here only to
 have abstract starting points; subsequent chapters drop postulates
 in favor of real proofs.
 
+*What we now know that we didn't before:* the Aristotelian
+baseline of Hegelian logic — concept, judgment, syllogism — maps
+cleanly to type theory, but the mapping treats concepts as static
+containers. The gap between concept-as-container and Hegel's
+three-moment self-moving concept is the gap the rest of the book
+tries to close.
+
 ## What's next
 
-[Chapter 2](./ch02-being.md) introduces **Pure Being** (das Sein)
-and **Pure Nothing** (das Nichts) — the absolute starting point of
-the *Science of Logic* — and the first dialectical move (Becoming,
-das Werden). We will see why Hegel insists these two seemingly
-opposite concepts collapse into each other, and how we begin to
-represent that collapse in Agda.
+After Chapter 1 we have a vocabulary — Concept — and a minimal
+syntax — Judgment, Universal Judgment, Syllogism. What we *don't*
+have is anything to say with it. The postulates `A`, `B`, `C`,
+`c` are abstract placeholders standing in for concepts that, so
+far, have no content.
+
+The next move in the *Science of Logic* is to ask: *what is the
+simplest possible concept?* What can we say if we presuppose
+nothing at all? Hegel's answer is **Pure Being** (das Sein) — the
+concept of being-as-such, with every determination stripped away.
+[Chapter 2](./ch02-being.md) follows that move, introduces also
+**Pure Nothing** (das Nichts), and discovers the first dialectical
+turn: the two seemingly opposite concepts collapse into each
+other, and out of that collapse comes **Becoming** (das Werden) —
+the first concrete category. The whole rest of the *Logic* unfolds
+from this opening move.

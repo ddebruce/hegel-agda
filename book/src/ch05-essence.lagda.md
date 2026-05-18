@@ -36,6 +36,35 @@ Two type-theoretic tools do the work:
    *subobject classifier*; here it is also our home for
    **Reflection**, characteristic maps `X → Ω`.
 
+## What's at stake
+
+The Doctrine of Being asked: *what is there?* — what shapes
+inhabit the universe of types and arrows. The Doctrine of Essence
+asks something different: *what is essential?* — what survives
+once mere appearance is set aside, and what register of *kinds of
+truth* are concepts answerable to.
+
+The structural shift is from concepts that simply *are* (immediate
+categories like Being, Nothing, Becoming) to concepts that
+**reflect on themselves** to find their truth. A reflective
+concept turns back into itself, sorts its surface qualities into
+what's accidental and what's essential, and discovers its truth
+not by reaching outward to a definition but by recovering itself
+from its own appearances. That is the move Reflection
+(*Reflexion*, §§814 ff.) names.
+
+This chapter is where Hegel's logic stops being "moves *between*
+categories" and starts being "categories thinking *about
+themselves*." We capture the proposition-level fragment of that
+move — three small pieces that fit together:
+
+- `isProp` picks out the types whose internal variation has been
+  collapsed: the *essential* types.
+- `Ω` collects those types into a register — a universe of
+  essences a concept can be mapped *into*.
+- A `Reflection` is the mapping itself: a function `X → Ω` that
+  recognizes, for each `x : X`, which essence it belongs to.
+
 ## 1. Propositions (Essential Truths)
 
 ### Hegelian thesis
@@ -120,6 +149,18 @@ with its certificate of being-essential.
 > univalence). Here we capture the proposition-level fragment of
 > that — mathematically cleaner, and what we actually need for
 > this chapter's purposes.
+>
+> *Why this matters:* Hegel's essence is about the *whole* shape
+> of conceptual content — not just yes/no truth values but the
+> rich internal structure of categories, which the Doctrine of
+> the Notion would develop further. Our `Ω` is the cleanest
+> formal target available: it lets us state Reflection precisely
+> as a characteristic map and verify a non-trivial example
+> against it. The larger Hegelian programme of
+> "essence-as-reflection across the full universe" awaits
+> univalence-aware constructions we don't yet build. What we
+> gain here is real and verified — the proposition-level fragment
+> — and we are honest that it is a fragment.
 
 ### Math
 
@@ -226,6 +267,14 @@ In this chapter, Agda has checked these constructions:
 - `bool-reflect : Reflection Bool` — the first **non-trivial**
   Reflection, which actually exercises `Ω`'s classifier role by
   splitting `Bool` into two distinct essences.
+
+*What we now know that we didn't before:* Hegel's "essence as
+what survives when appearance is set aside" has a proposition-level
+formal target. `Ω` collects the essences. Reflection (`X → Ω`)
+recovers a concept's essential truths from its surface
+presentations; `bool-reflect` shows the classifier role is
+non-trivial. The Doctrine of Essence has a first verified
+fragment.
 
 ## What's next
 

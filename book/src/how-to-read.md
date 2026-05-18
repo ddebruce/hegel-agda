@@ -1,7 +1,16 @@
 # How to read this book
 
-The book is structured to serve two distinct readers at once. Each
-chapter section uses some subset of these **facets**, each at
+The book is structured to serve two distinct readers at once.
+
+Hegel's *Logic* is simultaneously a formal system and a piece of
+philosophy — the categorical and the conceptual co-develop, and
+neither makes much sense alone. The two tracks honor that split:
+the philosophy track follows the conceptual argument, the
+programmer track follows the formal construction, and the "Reads
+as" paraphrases bridge them. Most readers benefit from peeking at
+the other track now and then.
+
+Each chapter section uses some subset of these **facets**, each at
 whatever length the pedagogy demands:
 
 - **Hegelian thesis** — what Hegel claims, in his terms, with
@@ -29,7 +38,8 @@ end of every chapter.
 If you encounter an Agda symbol you want to understand briefly, the
 [Glossary](./glossary.md) explains every construct used in the
 book in plain English. The [Cubical primitives](./cubical-primitives.md)
-sidebar collects the more technical pieces.
+appendix collects the more technical pieces and is meant for
+look-up, not first-read.
 
 ## If you come from type theory or programming
 
