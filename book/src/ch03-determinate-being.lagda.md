@@ -29,6 +29,36 @@ produce three concrete results, each genuinely checked by Agda:
    example of a *modal operator*, foreshadowing the `Moment`
    record of Chapter 4.
 
+## What's at stake
+
+Chapters 1 and 2 were almost entirely scaffolding: postulated
+concepts, bare arrows, and the suggestion of a dialectical move
+that the formalization deferred. This chapter is where both halves
+of the project turn concrete.
+
+On the Hegelian side: Pure Being has collapsed. From here on, we
+develop **determinate** concepts — concepts with actual content
+that survive the collapse and stand on their own. (Hegel's term is
+*Dasein*, "being-there," and the move is the bridge from sheer
+abstract Being to anything one could actually point at.) The
+chapter does not trace the full Hegelian arc through Quality and
+Quantity — those are large parts of the *Logic* we explicitly
+defer — but it does the parallel formal move.
+
+On the type-theoretic side: postulates give way to **proofs**.
+Cubical Agda's paths give us the machinery to identify things that
+aren't judgmentally equal, to show isomorphisms between types, and
+to model operators that act on types. Each of the three sections
+below is an explicit construction the typechecker accepts.
+
+The shared thread is *content from no content*. Chapter 2 promised
+that determinate concepts could be derived without external
+assumptions. This chapter makes good on that promise three times:
+contractibility (Pure Being is internally as identical as a thing
+can be), curry/uncurry (a real adjunction with verified inverses),
+and the double-negation modality (our first concrete modal
+operator).
+
 ## Prelude: Cubical primitives
 
 > Cubical Agda extends Agda with primitives from Cubical Type Theory.
@@ -180,6 +210,22 @@ which classically coincides with `X` but intuitionistically is
 strictly weaker. The form `X → ◯ X` for a functor `◯` is exactly
 the shape of a **monadic unit**, and Chapter 4 will abstract this
 pattern into a `Moment` record.
+
+> **Caveat:** Hegel's *negation of the negation* is not just the
+> operator `¬¬`; it is a **productive** move. For Hegel, negating
+> a determination and then negating that negation does not return
+> to a logically equivalent statement — it produces a *new*,
+> richer determination that incorporates and surpasses the
+> original. Our formal version captures the *operator* (`X → ¬¬X`)
+> but not the productivity.
+>
+> *Why this matters:* the gap between `X` and `¬¬X` is exactly
+> where Hegelian dialectical negation might live. Classical logic
+> identifies the two and the gap disappears — so *more* of Hegel
+> survives here precisely because we work intuitionistically and
+> `¬¬X → X` does **not** hold. The η of a non-trivial modality is
+> the best formal residue available; the productive move itself
+> remains beyond what type theory has yet captured.
 
 ### In code
 
