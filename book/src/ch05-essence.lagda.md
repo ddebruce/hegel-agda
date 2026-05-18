@@ -268,6 +268,14 @@ In this chapter, Agda has checked these constructions:
   Reflection, which actually exercises `Ω`'s classifier role by
   splitting `Bool` into two distinct essences.
 
+*What we now know that we didn't before:* Hegel's "essence as
+what survives when appearance is set aside" has a proposition-level
+formal target. `Ω` collects the essences. Reflection (`X → Ω`)
+recovers a concept's essential truths from its surface
+presentations; `bool-reflect` shows the classifier role is
+non-trivial. The Doctrine of Essence has a first verified
+fragment.
+
 ## What's next
 
 [Chapter 6](./ch06-actuality.md) introduces **Actuality**

@@ -286,6 +286,14 @@ In this chapter, Agda has checked these constructions:
 - `Π-preserves-prop` — the cross-chapter bridge: Necessity
   preserves Essence.
 
+*What we now know that we didn't before:* Hegel's triad
+Possibility–Actuality–Necessity corresponds to the adjoint triple
+`Σ ⊣ W ⊣ Π`, both adjunctions verified with explicit inverses.
+Necessity preserves Essence (`Π-preserves-prop`), so the Doctrine
+of Essence and the Doctrine of Actuality formally cohere. Across
+the six chapters: where the Lawvere translation survives Hegel,
+the proof is on the page; where it falls short, the gap is named.
+
 ## What we built / what we did not build
 
 ### What we built (across six chapters)

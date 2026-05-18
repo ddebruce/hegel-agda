@@ -211,6 +211,13 @@ In this chapter, Agda has checked these constructions:
 - `to-being : {X : Set} → X → ⊤` typechecks — the unique map to
   the terminal type is constructed explicitly.
 
+*What we now know that we didn't before:* the structural form of
+Hegel's opening move has a type-theoretic shape — `⊤`, `⊥`, and
+the bare arrows between them and any type. What we have is the
+*destination* of the Sein-Nichts collapse; what we do not have
+yet, and what [Chapter 4](./ch04-unity-aufhebung.md) reaches for,
+is its dialectical content.
+
 ## What's next
 
 [Chapter 3](./ch03-determinate-being.md) replaces our postulates

@@ -254,6 +254,14 @@ In this chapter, Agda has checked these constructions:
 - `double-negation-unit : {X : Set} → X → ¬ ¬ X` — concrete
   construction of the η of the double-negation modality.
 
+*What we now know that we didn't before:* the bare apparatus of
+[Chapter 2](./ch02-being.md) admits real proofs, real adjunctions,
+and a real modal operator. `⊤` is *contractible* — not just
+one-element. Curry/uncurry is a verified adjunction. `¬¬` is the
+first concrete modality, and the gap between `X` and `¬¬X` is
+where intuitionism preserves Hegel that classical logic would
+erase.
+
 ## What's next
 
 [Chapter 4](./ch04-unity-aufhebung.md) puts the pieces together

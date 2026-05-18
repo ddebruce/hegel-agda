@@ -218,6 +218,13 @@ postulates — assumed, not verified. We use postulates here only to
 have abstract starting points; subsequent chapters drop postulates
 in favor of real proofs.
 
+*What we now know that we didn't before:* the Aristotelian
+baseline of Hegelian logic — concept, judgment, syllogism — maps
+cleanly to type theory, but the mapping treats concepts as static
+containers. The gap between concept-as-container and Hegel's
+three-moment self-moving concept is the gap the rest of the book
+tries to close.
+
 ## What's next
 
 After Chapter 1 we have a vocabulary — Concept — and a minimal

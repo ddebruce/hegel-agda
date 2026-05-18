@@ -409,6 +409,15 @@ moment is contained in the higher moment."*
 - The `Aufhebung` record is **declared**, not inhabited —
   intentionally, as flagged in the caveat above.
 
+*What we now know that we didn't before:* Higher Inductive Types
+let us *name* Hegel's signature identification (Sein ≡ Nichts)
+without collapsing into inconsistency; monads and comonads with
+laws are the categorical shape of Hegelian Moments; Unity of
+Opposites is an adjunction with verified inverses. The structural
+infrastructure of dialectic is in place, even where the genuine
+philosophical content — a non-trivial Aufhebung — remains the
+next move.
+
 ## What's next
 
 [Chapter 5](./ch05-essence.md) turns to the **Doctrine of Essence**
